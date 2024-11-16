@@ -1,0 +1,55 @@
+.course-head {
+    font-size: 2rem;
+    margin: 3% auto; 
+    text-align: center; 
+}
+
+.course-para {
+    font-size: 1.1rem;
+    margin: 2% auto; 
+    text-align: center;
+}
+
+.first-set, .second-set, .third-set {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+    margin-bottom: 10px; 
+}
+
+/* Styles for screen widths up to 768px */
+@media screen and (max-width: 768px) {
+    .course-head {
+        font-size: 1.8rem; 
+    }
+
+    .course-para {
+        font-size: 1rem; 
+    }
+
+    .first-set, .second-set, .third-set {
+        justify-content: center; 
+        gap: 10px; 
+    }
+}
+
+/* Styles for screen widths up to 480px */
+@media screen and (max-width: 480px) {
+    .course-head {
+        font-size: 1.5rem; 
+        margin: 2% auto; 
+    }
+
+    .course-para {
+        font-size: 0.9rem; 
+        margin: 1% auto; 
+    }
+
+    .first-set, .second-set, .third-set {
+        flex-direction: column; 
+        align-items: flex-start;
+        gap: 5px; 
+    }
+}

@@ -1,0 +1,102 @@
+.navbar{
+    display: flex;
+    gap: 3%;
+    justify-content:center;
+    margin-top:-1% ;
+}
+.btns{
+    text-align: end;
+    margin-right: 15%;
+   margin-top: -1.2%;
+}
+.logo{
+    width: 6%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+ .login{
+    border:2px solid black;
+    width:5%;
+    border-radius: 10%;
+   
+ }
+ .sign{
+    border:2px solid black;
+    width:5%;
+    color: white;
+    background-color: black;
+   margin-left: 2%;
+  
+}
+.btns{
+    margin-top: -3%;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .btns{
+        margin-top: -4.5%;
+    }
+    .sign,.login{
+        width: 10%;
+    }
+    .logo{
+        width: 10%;
+        margin-top: 2%;
+    }
+    .navbar{
+        margin-top: -2%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .login{
+       display: none;
+    }
+    .sign{
+       display: none; 
+    }
+    .logo{
+        width: 10%;
+        margin-top: 2%;
+    }
+    ul li{
+        margin-top: -1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    .btns{
+       display: none;
+    }
+    .navbar{
+        margin-left: 5%;
+        gap: 10%;
+        margin-top: -3%;
+    }
+    .logo{
+        width: 12%;
+        margin-top: 3%;
+    }  
+}
+@media screen and (max-width: 480px) {
+    .logo{
+        display: none;
+        
+    }
+    .navbar{
+        margin-top: -1%;
+        margin-left: -5%;
+        font-weight: bold;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        height: 45px;
+
+        
+    }
+    ul li {
+        margin-top: 2%;
+    }
+}
