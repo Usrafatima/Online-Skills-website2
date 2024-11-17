@@ -4,7 +4,7 @@ import Ddsgnr from '../public/Ddsgnr Library.png';
 
 export default function Footer(){
     return(
-        <div>
+        <div className="box">
             <h1 className='subscribe'>Subscribe to our newsletter</h1>
             <p className='Lorem'>Lorem ipsum dolor sit amet.</p>
             <div className='input'>
